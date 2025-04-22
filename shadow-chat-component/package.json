@@ -1,0 +1,31 @@
+{
+  "name": "chat-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "rspack dev",
+    "build": "rspack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@rspack/cli": "^1.2.6",
+    "@rspack/core": "^1.2.6",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-rspack-plugin": "^6.0.2",
+    "postcss-loader": "^8.1.1",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0"
+  },
+  "dependencies": {
+    "@module-federation/enhanced-rspack": "^0.1.1"
+  }
+}
