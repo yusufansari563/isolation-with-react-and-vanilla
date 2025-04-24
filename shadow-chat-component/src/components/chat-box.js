@@ -14,12 +14,12 @@ export class ChatBox extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = `
       <style>${styles}</style>
-      <div class="chat-container">
-        <div class="chat-header">Chat</div>
-        <div class="chat-body" id="chatBody"></div>
-        <div class="chat-footer">
-          <input type="text" class="chat-input" id="chatInput" placeholder="Type a message..." />
-          <button class="chat-send" id="sendButton">Send</button>
+      <div class="flex">
+        <div class="bg-blue-500">Chat</div>
+        <div class="overflow-y-auto" id="chatBody"></div>
+        <div class="border-t">
+          <input type="text" class="flex-1" id="chatInput" placeholder="Type a message..." />
+          <button class="ml-2" id="sendButton">Send</button>
         </div>
       </div>
     `;
