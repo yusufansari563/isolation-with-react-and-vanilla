@@ -4,7 +4,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 // const TerserPlugin = require('terser-webpack-plugin');
 const { ModuleFederationPlugin } = require("webpack").container;
 
-const renameClassSuffix = "t__";
+const renameClassSuffix = "";
 
 module.exports = {
   entry: "./src/index.tsx",
