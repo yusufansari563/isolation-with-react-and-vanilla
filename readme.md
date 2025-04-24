@@ -31,7 +31,15 @@ terminal two >>>
 `cd shadow-chat-component`
 npm start
 
-Go to the `http://localhost:3000/#/login` you will be able to see basic login base which does not have any authentication directly click on "sign in" and then go the tha chat section which is our vanilla js component with the CSS same as in both MFE but different properties we can use seemlessly.
+Go to the `http://localhost:3000/#/login` you will be able to see basic login base which does not have any authentication directly click on "sign in" and then go to the chat section which is our vanilla js component with the CSS same as in both MFE but different properties we can use seemlessly.
+
+CSS classes we are using like `flex` it has different property out of the shadow dom and inside of the shadow dom if you inspect you will be able to see
+
+### Outside of shadow dom
+![Screenshot 2025-04-25 010348](https://github.com/user-attachments/assets/da143a8e-4c90-4aeb-aa55-a6b9009d3822)
+
+### inside of shadow dom
+![Screenshot 2025-04-25 010515](https://github.com/user-attachments/assets/95a8b10b-5e45-4e59-b879-51ee7f500c3d)
 
 
 ## License
